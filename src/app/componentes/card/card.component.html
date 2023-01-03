@@ -1,8 +1,12 @@
 <input type="checkbox" (click)="mostrar()"><span>Esta activo</span>
-<div *ngIf="estado">
-  <div>
-    <img src="" >
-    <h2>Angular</h2>
-    <p>Angular es un framework para aplicaciones web desarrollado en typescript, de codigo abierto, mantenido por google, que se utiliza para crear y mantener aplicaciones web de una sola página.</p>
+<div *ngIf="estado" class="w-4/12 mx-auto">
+  <div class="border-2">
+    <div class="bg-slate-500 flex justify-center">
+      <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg">
+    </div>
+    <div class="p-3">
+      <h2 class="text-xl">Angular</h2>
+      <p>Angular es un framework para aplicaciones web desarrollado en typescript, de codigo abierto, mantenido por google, que se utiliza para crear y mantener aplicaciones web de una sola página.</p>
+    </div>
   </div>
 </div>
